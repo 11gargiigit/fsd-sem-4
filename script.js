@@ -165,7 +165,7 @@ function verify(x1){
 verify("parameter"); //koi frk ni pdta global ho ya na ho agar fucntion se jud gya toh value function ki chalegi bss
 
 function confuseReader(){
-  x = "hi";
+  x = "hi"; //act as global kyuki kuch declaration diye ni h
   console.log("nhi na");
 }
 
