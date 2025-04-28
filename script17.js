@@ -96,4 +96,4 @@ console.log(val);
 
 //2
 let test2 = (num) => num + 5;
-console.log(test2(6);)
+console.log(test2(6));
