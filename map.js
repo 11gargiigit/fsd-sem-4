@@ -110,6 +110,10 @@ console.log(a2,a2,a3,a4,a5,a6);
 const vegies = ["bhindi","gajar","matar","aaloo","paneer"];
 let{[0]:ladyfinger,[1]:carrot} = vegies;
 console.log(vegies);
+console.log(vegies.includes("matar",4));//returns true when 4 isnt return else false
+//include is case sensitive and it will return value in bool
+
+
 
 const nums = [1,23,4,5,6,8,9,10];
 const[a,b,...rest] = nums;
@@ -118,11 +122,36 @@ console.log(b);
 console.log(rest);
 
 
+
 let x = 2;
 let z = x**2;
 console.log(z);
 let y = Math.pow(x,4);
 console.log(y);
+//z==y as in same result
+
+
+
+//trailing comma is terminal comma to provide structuring if you add new items later, you don't need to modify the previous line.ek he lgana h bss wrna undefined
+
+const arr = {
+  one : "one",
+  two : "two",
+  three : "three",
+}
+console.log(arr);
+
+const numer = [2,3,,4,,,5];
+console.log(numer.length);
+//yha pe o/p me woh 7 dega but iske andar elements bss 4 h toh baaki jagah undefined elements h
+//sparse array create kr skte h but sparse object nii kar skte
+
+
+
+
+
+
+
 
 
 
